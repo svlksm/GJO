@@ -7,7 +7,7 @@ public class FigureDataCollector {
 
     String figure = "triangle";
 
-    ArrayList<Double> collectedValues = new ArrayList<>(2);
+    ArrayList<Double> collectedValues = new ArrayList<>();
 
     Console console;
 
