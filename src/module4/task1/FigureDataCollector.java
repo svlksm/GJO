@@ -18,7 +18,7 @@ public class FigureDataCollector {
     public void run() {
         System.out.println("Choose figure: t - triangle(default), r - rectangle, c - circle");
         String inputLine = this.console.readLine();
-
+        inputLine = null == inputLine ? "" : inputLine;
 
         switch (inputLine.charAt(0)) {
             case 'r':
